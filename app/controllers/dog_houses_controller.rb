@@ -5,6 +5,7 @@ class DogHousesController < ApplicationController
     dog_house = DogHouse.find(params[:id])
     render json: dog_house
   end
+  
 
   private
 
